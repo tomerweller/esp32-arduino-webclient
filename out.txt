@@ -1,0 +1,45 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0x00
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3ffc0008,len:0
+load:0x3ffc0008,len:1388
+load:0x40078000,len:3560
+load:0x40080000,len:256
+entry 0x40080034
+rtc v118 Oct 19 2016 15:22:11
+XTAL 40M
+tcpip_task_hdlxxx : 3ffc5cf8, prio:18,stack:2048
+frc2_timer_task_hdl:3ffc77c4, prio:22, stack:2048
+phy_version: 187, Oct 10 2016, 19:23:46, 0
+I (1556) wifi: pp_task_hdl : 3ffca024, prio:23, stack:8192
+mode : sta(24:0a:c4:00:27:f4) + softAP(24:0a:c4:00:27:f5)
+dhcp server start:(ip: 192.168.4.1, mask: 255.255.255.0, gw: 192.168.4.1)
+Connecting to: Viral
+I (1694) wifi: n:1 1, o:1 0, ap:1 1, sta:1 0, prof:1
+I (2660) wifi: state: 0 -> 2 (b0)
+I (2667) wifi: state: 2 -> 3 (0)
+I (2670) wifi: state: 3 -> 5 (10)
+I (2694) wifi: connected with Viral, channel 1
+Connected to wifi
+SSID: Viral
+IP Address: 10.0.1.51
+signal strength (RSSI):0 dBm
+
+Starting connection to server...
+connected to server
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=utf-8
+Date: Tue, 29 Nov 2016 03:31:20 GMT
+Server: nginx/1.8.1
+Set-Cookie: first_referrer=; Path=/
+Content-Length: 13
+Connection: Close
+
+18.85.59.184
